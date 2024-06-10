@@ -32,4 +32,4 @@ async function fetchAndLogData() {
 
 // Call the function immediately and then every 5 minutes
 fetchAndLogData();
-setInterval(fetchAndLogData, 120000); // 300000 ms = 5 minutes
+setInterval(fetchAndLogData, 300000); // 300000 ms = 5 minutes
